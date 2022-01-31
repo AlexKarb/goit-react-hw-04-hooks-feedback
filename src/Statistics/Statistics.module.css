@@ -1,0 +1,13 @@
+.stats {
+  margin-top: 20px;
+}
+
+.stats__list {
+  margin: 0 30px;
+}
+
+.stats__item {
+  list-style: none;
+  text-transform: capitalize;
+  line-height: 1.66;
+}

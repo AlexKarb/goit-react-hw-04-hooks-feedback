@@ -1,0 +1,23 @@
+.button {
+  font-size: 20px;
+  font-weight: 600;
+  width: 120px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px 1px var(--main-shadow);
+  border: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.button:active {
+  background-color: var(--main-shadow);
+}
+
+.button__container {
+  display: flex;
+  justify-content: space-around;
+}
